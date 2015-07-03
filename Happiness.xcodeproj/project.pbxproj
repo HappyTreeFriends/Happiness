@@ -79,12 +79,9 @@
 		F1E6664B1B43B3DF005918C2 /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
-				F1E6664E1B43B3DF005918C2 /* AppDelegate.swift */,
 				F1E666521B43B3DF005918C2 /* Main.storyboard */,
 				F1E6666E1B43B888005918C2 /* HappinessViewController.swift */,
 				F1E666701B43B929005918C2 /* FaceView.swift */,
-				F1E666551B43B3DF005918C2 /* Images.xcassets */,
-				F1E666571B43B3DF005918C2 /* LaunchScreen.xib */,
 				F1E6664C1B43B3DF005918C2 /* Supporting Files */,
 			);
 			path = Happiness;
@@ -93,6 +90,9 @@
 		F1E6664C1B43B3DF005918C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1E666571B43B3DF005918C2 /* LaunchScreen.xib */,
+				F1E666551B43B3DF005918C2 /* Images.xcassets */,
+				F1E6664E1B43B3DF005918C2 /* AppDelegate.swift */,
 				F1E6664D1B43B3DF005918C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -415,6 +415,7 @@
 				F1E6666A1B43B3DF005918C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1E6666B1B43B3DF005918C2 /* Build configuration list for PBXNativeTarget "HappinessTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				F1E6666D1B43B3DF005918C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
